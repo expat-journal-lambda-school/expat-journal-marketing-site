@@ -18,7 +18,7 @@ function toggleMenu() {
       }
     }
   }
-//TweenMax.to("header", 2, {opacity:0.85, delay:0.5});  
+//TweenMax javscript rotations animation
 
 window.onscroll = function() {myScroll()};
 
@@ -27,6 +27,27 @@ function myScroll() {
     TweenMax.to(".row", 0.8, {rotation:360});
   }
 }
-TweenMax.to(".img2", 2, {opacity:0.7, delay:1.6});
- 
- 
+//variables for a carousel
+let i = 0;
+let images = [];
+let time = 4000;
+
+// Images Array
+
+images[0] = 'img/backgroundcity.png';
+images[1] = 'img/egypt1.jpg';
+images[2] = 'img/st_tropez.jpeg';
+images[3] = 'img/sicily1.jpg';
+// implement timed shift of imgs
+function shiftImg(){
+  document.slide.src = images[i];
+
+  if(i < images.length - 1){
+    i++; }  
+    else {
+      i = 0;
+    }
+    setTimeout('shiftImg()', time);
+  }
+
+window.onload = shiftImg;
