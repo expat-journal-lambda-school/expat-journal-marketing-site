@@ -1,24 +1,16 @@
-// basic JS template build
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function toggleMenu() {
-    document.getElementById("myDropdown").classList.toggle("show");
+// basic JS animation on scroll with a toggle menu 'openNav' function
+
+
+/* Toggle nav */
+function openNav() {
+  let e = document.getElementById("myLinks");
+  if (e.style.display === "block") {
+    e.style.display = "none";
+  } else {
+    e.style.display = "block";
   }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
-//TweenMax javscript rotations animation
+}
+//TweenMax javascript rotations animation
 
 window.onscroll = function() {myScroll()};
 
