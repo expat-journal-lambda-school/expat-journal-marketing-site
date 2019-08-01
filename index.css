@@ -9,6 +9,17 @@ body {
   text-align: center;
 }
 
+#loading {
+    background: url('loading.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+	z-index: 999;
+	border-radius: 8px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

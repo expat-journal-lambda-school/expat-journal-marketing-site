@@ -1,5 +1,12 @@
 // basic JS animation on scroll with a toggle menu 'openNav' function
+function hideLoader() {
+  $('#loading').hide();
+}
 
+$(window).ready(hideLoader);
+
+// Hide loader after 15 seconds, even if the page hasn't finished loading
+setTimeout(hideLoader, 15 * 1000);
 
 /* Toggle nav */
 function openNav() {
