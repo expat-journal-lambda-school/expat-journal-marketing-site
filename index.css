@@ -323,6 +323,13 @@ p {
 	color: grey;
 }
 
+.phoneimg {
+	width: 250px;
+	height: 50%;
+	box-shadow: 2px 0 2px #aaa;
+
+}
+
 /* Style the form - display items vertical */
 .form-inline { 
 	display: flex;
@@ -372,7 +379,7 @@ p {
 	color: black;
   }
   
-/* small tablet style attributes */
+  /* small tablet style attributes */
 
   @media (max-width: 768px) {
 	.row {
@@ -555,9 +562,9 @@ footer a {
 	display: none;
   } 
 
-.arrows {
-	display: none;
-}
+  .arrows {
+ 	display: none;
+  }
 
   /* Style navigation menu links */
   .topnav a {
@@ -594,19 +601,4 @@ footer a {
   button {
 	margin-bottom: 40px;
   }
-}
-
-.phoneimg {
-	width: 250px;
-	height: 50%;
-	box-shadow: 2px 0 2px #aaa;
-
-}
-
-.phoneimg:hover {
-	
-}
-
-.bottom_content:hover {
-
 }
