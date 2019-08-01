@@ -15,7 +15,7 @@ function openNav() {
 window.onscroll = function() {myScroll()};
 
 function myScroll() {
-  if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 450) {
     TweenMax.to(".row", 0.8, {rotation:360});
   }
 }

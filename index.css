@@ -165,7 +165,7 @@ a:hover {
   }
  
  .column1:hover, .column2:hover { 
-	 background-color: lightblue;
+	 background-color: #44D7B6;
  }
 
   
@@ -180,7 +180,7 @@ a:hover {
 
 /* call to action styling/buttons */
 #cta1 {
-	background-color: lightskyblue;
+	background-color: #44D7B6;
 	width: 150px;
 	height: 120px;
 	border-radius: 16px;
@@ -196,7 +196,7 @@ a:hover {
 }
 
 #cta2 {
-	background-color: lightgrey;
+	background-color: #444;
 	width: 150px;
 	height: 120px;
 	border-radius: 16px;
@@ -212,7 +212,7 @@ a:hover {
 }
 
 #cta3 {
-	background-color:lightblue;
+	background-color: lightslategrey;
 	width: 150px;
 	height: 120px;
 	border-radius: 16px;
@@ -250,13 +250,14 @@ article {
 /* animation on articles hover */
   .container article {
     font-size: 1.2rem;
-    border: 2px #fff solid;
+	border: 2px #fff solid;
+	border-radius: 8px;
     padding: 1.2rem 1.2rem;
     margin-bottom: 1.2rem;
     transition: all 0.5s ease-out; }
     .container article:hover {
       padding: 0.5rem 1.3rem;
-	  background:lightgrey;
+	  background: whitesmoke;
 	  border-radius: 12px;
       color: #000; }
       .container article:hover span {
@@ -331,6 +332,7 @@ p {
 	border-radius: 5px;
 	color: white;
 	font-size: 1.1rem;
+	opacity: 1;
   }
 
   button {
@@ -344,7 +346,8 @@ p {
   }
   
   .form-inline button:hover {
-	background-color: #333;
+	background-color:#44D7B6;
+	color: black;
   }
   
 /* small tablet style attributes */
@@ -550,4 +553,10 @@ footer a {
 	color: #444;
 	margin-bottom: 16px;
   }
+}
+
+.phoneimg {
+	width: 250px;
+	height: 50%;
+	box-shadow: 2px 0 2px #aaa;
 }
