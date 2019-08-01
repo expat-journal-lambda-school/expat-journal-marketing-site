@@ -400,6 +400,11 @@ p {
 		border-radius: 4px;
 	}
 
+	.column1:hover, .column2:hover { 
+		background-color: #44D7B6;
+		color: whitesmoke;
+	}
+
 	.column {
 		display: flex;
 		flex-direction: column;
