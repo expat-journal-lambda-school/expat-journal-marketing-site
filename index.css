@@ -273,7 +273,7 @@ article {
 	border: 2px #fff solid;
 	border-radius: 8px;
     padding: 1.2rem 1.2rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     transition: all 0.5s ease-out; }
     .container article:hover {
       padding: 0.5rem 1.3rem;
@@ -297,12 +297,6 @@ article {
 	}
 }
 
-/*@media (max-width: 1100px) {
-	.img1 {
-		height: 550px;
-		width: 1100px;
-	}
-}*/
 
 .block2 {
 	background-color:  #44D7B6;
@@ -580,6 +574,10 @@ footer a {
 	background-color: white;
 	color: #444;
 	margin-bottom: 16px;
+  }
+
+  button {
+	margin-bottom: 40px;
   }
 }
 
