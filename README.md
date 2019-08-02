@@ -8,6 +8,7 @@ Initial deploy here (issues with proper display on Safari): https://festive-boot
 --
 Pure HTML5, CSS, Vanilla Javascript, 
 LESS, and JQuery for the Pre-loading Page
+See other Team Members Github Below for the Full Tech Stack...
 
 ## Installation
 
