@@ -628,3 +628,32 @@ footer a {
 	margin-bottom: 40px;
   }
 }
+
+.container .team {
+	color: #444;
+	text-align: center;
+}
+
+
+.img_profile {
+	width: 100px;
+	height: 100px;
+	border-radius: 8px;
+	opacity: 0.7;
+	text-align: center;
+	border: 2px solid whitesmoke;
+}
+
+.team a {
+	color: #444;
+	cursor: pointer;
+}
+
+.team a:hover {
+	color:#44D7B6;
+	cursor: pointer;
+}
+
+.team h4 {
+	font-size: 1.6rem;
+}
