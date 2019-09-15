@@ -6,7 +6,7 @@ Initial deploy here (issues with proper display on Safari): https://festive-boot
 
 <b>Front End UI Built With:</b>
 --
-React, LESS, Vanilla Javascript, Node, and Semantic UI for the Pre-loading Page.
+React, LESS, Vanilla Javascript, Node, and Semantic UI for the Pre-loading Page, and Full Apllication.
 See other Team Members Github Below for the Full Tech Stack...
 
 ## Installation
