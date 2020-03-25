@@ -1,13 +1,14 @@
 # Expat Journal Marketing Site
 
 **Expat Journal** is a targeted CRUD application that allows **expatriates** a platform from which they can share their adventures around the globe.
-Initial deploy here (issues with proper display on Safari): https://festive-booth-ec0d89.netlify.com/#Home
+Initial deploy: https://festive-booth-ec0d89.netlify.com/#Home
 
 
 <b>Front End UI Built With:</b>
 --
-React, LESS, Vanilla Javascript, Node, and Semantic UI for the Pre-loading Page, and Full Apllication.
+React, LESS, Vanilla Javascript, Node, and Semantic UI for the Marketing Page, and Full Apllication.
 See other Team Members Github Below for the Full Tech Stack...
+Login here: https://expat-journal-fe.netlify.com/ to a deployed full stack application.
 
 ## Installation
 
