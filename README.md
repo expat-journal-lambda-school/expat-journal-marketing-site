@@ -6,7 +6,7 @@ Initial deploy: https://festive-booth-ec0d89.netlify.com/#Home
 
 <b>Front End UI Built With:</b>
 --
-React, LESS, Vanilla Javascript, Node, and Semantic UI for the Marketing Page, and Full Apllication.
+React, LESS/CSS3, Vanilla JavaScript, Node.js, and Semantic UI for the Marketing Page and Full Apllication.
 See other Team Members Github Below for the Full Tech Stack...
 Login here: https://expat-journal-fe.netlify.com/ to a deployed full stack application.
 
